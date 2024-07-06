@@ -1,4 +1,4 @@
 ---
-name: Wooly McBaa
+name: Noel Rignon
 image: /images/wooly.jpg
 ---

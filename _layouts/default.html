@@ -55,15 +55,21 @@
 				</div>
 
 				<div class="sharing">
-					<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
-						{% include icons/social-media.html social_icon="facebook" %}
-					</a>
-					<a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
-						{% include icons/social-media.html social_icon="twitter" %}
-					</a>
-					<a class="youtube" href="https://youtube.com/{{ site.data.company.youtube }}">
-						{% include icons/social-media.html social_icon="youtube" %}
-					</a>
+					{% if site.data.company.facebook %}
+						<a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
+							{% include icons/social-media.html social_icon="facebook" %}
+						</a>
+					{% endif %}
+					{% if site.data.company.twitter %}
+						<a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
+							{% include icons/social-media.html social_icon="twitter" %}
+						</a>
+					{% endif %}
+					{% if site.data.company.youtube %}
+						<a class="youtube" href="https://youtube.com/{{ site.data.company.youtube }}">
+							{% include icons/social-media.html social_icon="youtube" %}
+						</a>
+					{% endif %}
 				</div>
 			</div>
 		</footer>

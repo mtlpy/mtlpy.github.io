@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Madimi+One&display=swap');
+
 html, body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Cairo', sans-serif;
 	color: #333;
 	min-width: 380px;
 }
@@ -20,23 +22,29 @@ hr {
 h1 {
 	padding: 0;
 	margin: 0 0 20px 0;
-	font-size: 3em;
+	font-size: 50px;
+	color: #18371D;
+	font-family: 'Madimi One', sans-serif;
 }
 
 h2 {
 	font-size: 2.3em;
 	margin: 0 0 30px 0;
 	text-align: center;
+	color: #18371D;
+	font-family: 'Madimi One', sans-serif;
 }
 
 h3 {
 	font-size: 1.8em;
 	margin: 20px 0 20px 0;
+	color: #18371D;
+	font-family: 'Madimi One', sans-serif;
 }
 
 p {
-	font-size: 1.3em;
-	line-height: 1.4em;
+	font-size: 16px;
+	line-height: 18px;
 	color: #888;
 }
 
