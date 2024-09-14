@@ -50,6 +50,13 @@
   }
 }
 
+.sponsor-logo {
+  max-height: 300px;  /* Adjust this value as needed */
+  max-width: 300px;  /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto 10px; /* Center the logos and add some space at the bottom */
+}
+
 /* Contributing sponsor-specific styles */
 .contributor-logo {
   max-height: 80px;
