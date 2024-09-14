@@ -35,15 +35,16 @@
 
     .sponsor-logo {
       max-height: 150px;  /* Adjust this value as needed */
-      width: auto;  /* Maintain aspect ratio */
+      max-width: 300px;  /* Maintain aspect ratio */
       display: block;
       margin: 0 auto 10px; /* Center the logos and add some space at the bottom */
     }
 
     /* Ensure contributor logos are smaller */
     .contributor-logo {
+      max-height: 80px;
       width: 50%;  /* Adjust width to 50% of its parent */
-      max-width: 300px;  /* Set a maximum width for consistency */
+      max-width: 200px;  /* Set a maximum width for consistency */
       height: auto;  /* Maintain aspect ratio */
     }
   }
@@ -51,8 +52,9 @@
 
 /* Contributing sponsor-specific styles */
 .contributor-logo {
+  max-height: 80px;
   width: 50%;  /* Make the contributing sponsor logo smaller by reducing width */
-  max-width: 300px;  /* Limit max width for consistency */
+  max-width: 200px;  /* Limit max width for consistency */
   height: auto;  /* Ensure aspect ratio is maintained */
 }
 
