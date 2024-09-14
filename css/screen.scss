@@ -29,9 +29,10 @@
     padding: 1rem;
 
     .sponsor-logo {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 1rem;
+      max-height: 150px;  /* Adjust this value as needed */
+      width: auto;  /* Maintain aspect ratio */
+      display: block;
+      margin: 0 auto 10px; /* Center the logos and add some space at the bottom */
     }
   }
 }
