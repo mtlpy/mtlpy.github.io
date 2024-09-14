@@ -36,3 +36,11 @@
     }
   }
 }
+
+.sponsors-section a {
+  text-decoration: none; /* Remove the underline */
+}
+
+.sponsors-section a:hover {
+  cursor: pointer; /* Show pointer when hovering over the image */
+}
