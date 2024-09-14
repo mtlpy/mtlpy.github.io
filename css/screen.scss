@@ -39,12 +39,17 @@
       display: block;
       margin: 0 auto 10px; /* Center the logos and add some space at the bottom */
     }
+
+    /* Ensure contributor logos are smaller */
+    .contributor-logo {
+      max-height: 100px;  /* Smaller height for contributing sponsors */
+    }
   }
 }
 
 /* Contributing sponsor-specific styles */
 .contributor-logo {
-  max-height: 75px;  /* Make the contributing sponsor logos smaller */
+  max-height: 100px;  /* Ensure smaller logo for contributing sponsors */
 }
 
 .contributor-title {
