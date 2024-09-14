@@ -5,12 +5,17 @@
 @import "elements";
 @import "layout";
 
-
 .sponsors-section {
   padding: 3rem 0;
 
   h2 {
     margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    color: #3b4d34;  /* Lighter shade of green for subtitle */
   }
 
   .columns {
@@ -37,10 +42,31 @@
   }
 }
 
+/* Contributing sponsor-specific styles */
+.contributor-logo {
+  max-height: 100px;  /* Make the contributing sponsor logos smaller */
+}
+
+.contributor-title {
+  color: #6b8f6d;  /* Even lighter shade to reduce competition with main title */
+}
+
+/* Principal sponsors */
+.principal-title {
+  color: #2f4f27;  /* Darker shade of green for better contrast */
+}
+
 .sponsors-section a {
   text-decoration: none; /* Remove the underline */
 }
 
 .sponsors-section a:hover {
   cursor: pointer; /* Show pointer when hovering over the image */
+}
+
+@media (max-width: 768px) {
+  .sponsors-section .columns {
+    flex-direction: column;
+    align-items: center;
+  }
 }
